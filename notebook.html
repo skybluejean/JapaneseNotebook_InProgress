@@ -6,88 +6,86 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content = "IE=edge">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> 
-
+        
         <title>Japanese Language Book</title>
         
         <!-- Load external CSS styles -->
         <link rel="stylesheet" href="notebook.css">
-
+        
         <style>
+
+          body{
+               margin : 0px;
+               background-color: rgb(240, 222, 225);
+                }
             
-            .hrStyle{
+            h1{
+                background-color: violet;
+                border-style: groove;
+                border-color: slateblue;
+                border-width: 2px;
+                text-align: center;
+                margin : 1.5px;
+                 }
+            
+                    
+    .p1,.p2,.p3{
+                margin : 3px;
+                border : 5px;
+                border-bottom-style: initial;
+                }
+                    
+                /* 
+                p3{
+                    margin : 0px;
+                }
+                */
+                    
+                  
+.positionCenter{
+                text-align : center;
+                margin : 0;
+                 }
+                    
+                    
+        .hrStyle{
                 border-style: double;
                 color: violet;
                 border-width: 7px;
                 margin : 0;
-
-            }
-
-            <!---->
-            h1{
-                background-color: violet;
-                border-style: groove;
-                border-color: purple;
-                border-width: 2px;
-                text-align: center;
-                margin : 1.5px;
-               }
-
-               <!---->
-            h3,h4{
-                text-align : center;
-                margin : 0;
                 }
-
-            p1{
-                background-color: rgb(252, 252, 145);
-                /*border-style: groove;
-                border-color: yellow;
-                border-width: 5px;*/
-                
-                /* inline은 content 넓이를 넓히는게 불가능. 
-                하지만 block은 가능--> */
-                /* 블록은 대표적으로 <p>,<div>,<h>,<ul>,<ol>,<form>등이 있다.*/
-                /* <!--인라인은 대표적으로 <span>,<a>,<img>등이 있다.*/
-               }
-
-              p2{
-                margin : 3px;
-                border-bottom-style: initial;
-               }
-
-               p3{
-                margin : 0px;
-               }
-
-               ul{
+                    
+     .choiceBox{
+                 background-color: pink;
+                 border-color: lightcoral;
+                 border-style: groove;
+                 margin : 0px;
+                 border-width: 5px;
+                 padding-left: 5px;
+                }
+             
+     .JPlistInfo{
+                background-color: pink;
+                border-color : lightcoral;
+                border-style: groove;
                 margin : 0;
-                border-color : lightsalmon;
-                border-radius: 5px;
-                border-style: inherit;
+                border-width: 5px;
                 padding-left: 10px;
+                padding-bottom: 1px;
                 list-style-type: square;
                 list-style-position: inside;
-               }
+                }
+            
 
-            /*
-            p.groove{
-                border-style : groove;
-                border-color : azure;
-               }
-             */
-
-
-             body{
-                margin : 5px;
-             }
-
-             .choiceBox{
+                
+            /* 
+            .JPlistInfo{
                 background-color: pink;
                 border-style: groove;
                 border-color: lightcoral;
                 border-width: 2px;
                 /*border-color : azure;*/
-             }
+             */
 
              .sakuraImage{
                 background-color: none;
@@ -99,32 +97,8 @@
                 width: 670px;
                 height: 50px;
                 background-repeat: no-repeat;
-             }
+                  }
 
-
-            div{
-                background-color: pink;
-                border-style: groove;
-                border-color: lightcoral;
-                border-width: 2px;
-                /*border-color: azure;*/
-                }
-
-
-                /*
-            ol{
-                background-color: bisque;
-                border-color: pink;
-                border-style: groove;
-                padding : 10px 10px 10px 50px;
-                }         
-
-
-            li{
-                 list-style-type : square;
-                 margin-bottom: 10px;
-                }
-                */
             
         </style>
 
@@ -135,60 +109,70 @@
 
         <h1>ようこそ!!</h1>
         <hr class="hrStyle">
-        <h3>&#128152一緒にゲームをしながら日本語を勉強しましょう&#128152</h3>
-        <h4>&#128158let's study japanese with playing game together&#128158</h4>
+        <h3 class="positionCenter">&#128152一緒にゲームをしながら日本語を勉強しましょう&#128152</h3>
+        <h4 class="positionCenter">&#128158let's study japanese with playing game together&#128158</h4>
         <hr class="hrStyle">
-        <p1 class="groove">당신의 레벨은 어느정도 입니까? / あなたのレベルはどのくらいですか？</p1>
+        <p1>당신의 레벨은 어느정도 입니까? 
+        / あなたのレベルはどのくらいですか？</p1>
     
         <!-- 
 
-            <div class="choiceBox">
-                <form autocomplete="off">
-                    <input type="checkbox" name = "level" value = "初心者(Easy)">初心者(Easy) <br>
-                    <p2>Begginers for who has no basic about ひらがな and カタカナ</p2> <br>
-            <hr>
-            <input type="checkbox" name = "level" value = "中級者(Normal)">中級者(Normal) <br>
-            <p2>Begginers for who has no basic about ひらがな and カタカナ</p2> <br>
-            <hr>
-            <input type="checkbox" name = "level" value = "上級者(Hard)">上級者(Hard) <br>
-            <p2>Begginers for who has no basic about ひらがな and カタカナ</p2> <br>
-            <hr>
-            <input type="checkbox" name = "level" value = "マスター(Expert)">マスター(Expert) <br>
-            <p2>Begginers for who has no basic about ひらがな and カタカナ</p2> <br>
-        </form>
-    </div>
+            <script type = "TestForEasy.JavaScript">
+                function gotoEasy()
+                {
+                    window.document.location.href='file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForEasy.html';
+                }
+            </script>
+            
+            <script type = "TestForNormal.JavaScript">
+                function gotoNormal()
+                {
+                    window.document.location.href='file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForNormal.html';
+                }
+            </script>
+            
+            <script type = "TestForHard.JavaScript">
+                function gotoHard()
+                {
+                    window.document.location.href='file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForHard.html';
+            }
+        </script>
+
+        <script type = "TestForExpert.JavaScript">
+            function gotoExpert()
+            {
+                window.document.location.href='file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForExpert.html';
+            }
+        </script>
         -->
-
-
+        
         
         <div class="choiceBox">
-            <form autocomplete="off">
-                <input type="checkbox" name = "level" value = "初心者(Easy)"  onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForEasy.html'")">初心者(Easy) <br> -->
-                <p2>Begginers for who has no basic about ひらがな and カタカナ</p2> <br>
-                <hr>
-                <input type="checkbox" name = "level" value = "中級者(Normal)" onclick="location.href ='file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForNormal.html'">中級者(Normal) <br>
-                <p2>Begginers for who has no basic about ひらがな and カタカナ</p2> <br>
-                <hr>
-                <input type="checkbox" name = "level" value = "上級者(Hard)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForHard.html'">上級者(Hard) <br>
-                <p2>Begginers for who has no basic about ひらがな and カタカナ</p2> <br>
-                <hr>
-                <input type="checkbox" name = "level" value = "マスター(Expert)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForExpert.html'">マスター(Expert) <br>
-                <p2>Begginers for who has no basic about ひらがな and カタカナ</p2> <br>
-            </form>
-            </div>
+        <form autocomplete="off">
+            <input type="checkbox" name = "level" value = "初心者(Easy)"  onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForEasy.html'">初心者(Easy) <br> -->
+            <p2>Begginers for who has no basic about ひらがな and カタカナ</p2> <br>
+            <hr>
+            <input type="checkbox" name = "level" value = "中級者(Normal)" onclick="location.href ='file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForNormal.html'">中級者(Normal) <br> -->
+            <p2>People who had basic about ひらがな and カタカナ and leearn some vocabulary</p2> <br>
+            <hr>
+            <input type="checkbox" name = "level" value = "上級者(Hard)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForHard.html'">上級者(Hard) <br> -->
+            <p2>After finished Normal level you can challenge Hard mode that who can understand N2 level vocabulary</p2> <br>
+            <hr>
+            <input type="checkbox" name = "level" value = "マスター(Expert)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForExpert.html'">マスター(Expert) <br> -->
+            <p2>If you master most of vacabulary, you can try Master level and proof your level!</p2> <br>
+        </form>
+        </div>
 
-            
-    
-    <div class="sakuraImage">
-        <img src="" alt="">
-    </div>
+        <div class="sakuraImage">
+            <img src="" alt="">
+        </div>
     
         <hr class="hrStyle">
+        <h3 class="positionCenter">&#128120일어 습득 후,일본어 자격증 관련 정보&#128120</h3>
+        <hr class="hrStyle">
 
-        <h3>&#128120일어 습득 후, 
-        일본어 자격증 관련 정보&#128120</h3>
 
-        <ul>
+        <ul class="JPlistInfo">
             <li><p3>JLPT 어학 관련 정보</p3></li>
             <a href="https://www.jlpt.or.kr/jlpt/jlpt1.asp?Mcode=1">JLPT 어학 사이트(시험소개)</a>
             <br>
