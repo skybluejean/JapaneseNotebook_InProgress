@@ -1,85 +1,106 @@
-body{
-  margin : 0px;
-  background-color: rgb(240, 222, 225);
-   }
-
+/*
 h1{
-   background-color: violet;
-   border-style :inset;
-   border-color: rgb(211, 50, 112);
-   border-width: 4px;
-   text-align: center;
-   margin : 1.5px;
-    }
+  background-color: aqua;
+  border-color: azure;
+}
 
-       
-.p1,.p2,.p3{
-   margin : 3px;
-   border : 5px;
-   border-bottom-style: initial;
-   }
-       
-   /* 
-   p3{
-       margin : 0px;
-   }
-   */
-       
-     
-.positionCenter{
-   text-align : center;
-   margin : 0;
-    }
-       
-       
-.hrStyle{
-   border-style: double;
-   color: violet;
-   border-width: 7px;
-   margin : 0;
-   }
-       
-.choiceBox{
-    background-color: pink;
-    border-color: lightcoral;
-    border-style: groove;
-    margin : 0px;
-    border-width: 5px;
-    padding-left: 5px;
-   }
+ul{
 
-.JPlistInfo{
-   background-color: pink;
-   border-color : lightcoral;
-   border-style: groove;
-   margin : 0;
-   border-width: 5px;
-   padding-left: 10px;
-   padding-bottom: 1px;
-   list-style-type: square;
-   list-style-position: inside;
-   }
+  background-color: bisque;
+  border-color: pink;
+  border-style: groove;
+  padding : 10px 10px 10px 50px;
+}
 
-
-   
-/* 
-.JPlistInfo{
-   background-color: pink;
-   border-style: groove;
-   border-color: lightcoral;
-   border-width: 2px;
-   /*border-color : azure;*/
+li{
+  list-style-type : square;
+  margin-bottom: 10px;
+}
 */
 
-.sakuraImage{
-   background-color: none;
-   background-image: url(sakuraImage.jpg);
-   background-size: cover;
-   border-style: groove;
-   border-color: blueviolet;
-   border-width: 2px;
-   width: 670px;
-   height: 50px;
-   background-repeat: no-repeat;
+body{
+   margin : 0px;
+   background-color: rgb(240, 222, 225);
+    }
+ 
+ h1{
+    background-color: violet;
+    border-style :inset;
+    border-color: rgb(211, 50, 112);
+    border-width: 4px;
+    text-align: center;
+    margin : 1.5px;
      }
-
+ 
+        
+ .p1,.p2,.p3{
+    margin : 3px;
+    border : 5px;
+    border-bottom-style: initial;
+    }
+        
+    /* 
+    p3{
+        margin : 0px;
+    }
+    */
+        
+      
+ .positionCenter{
+    text-align : center;
+    margin : 0;
+     }
+        
+        
+ .hrStyle{
+    border-style: double;
+    color: violet;
+    border-width: 7px;
+    margin : 0;
+    }
+        
+ .choiceBox{
+     background-color: pink;
+     border-color: lightcoral;
+     border-style: groove;
+     margin : 0px;
+     border-width: 5px;
+     padding-left: 5px;
+    }
+ 
+ .JPlistInfo{
+    background-color: pink;
+    border-color : lightcoral;
+    border-style: groove;
+    margin : 0;
+    border-width: 5px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    list-style-type: square;
+    list-style-position: inside;
+    }
+ 
+ 
+    
+ /* 
+ .JPlistInfo{
+    background-color: pink;
+    border-style: groove;
+    border-color: lightcoral;
+    border-width: 2px;
+    /*border-color : azure;*/
+ */
+ 
+ .putImage{
+    background-color: none;
+    background-image: url(cherryblossomflower.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    border-style: groove;
+    border-color: blueviolet;
+    border-width: 2px;
+    width: 670px;
+    height: 50px;
+      }
+ 
+ 
