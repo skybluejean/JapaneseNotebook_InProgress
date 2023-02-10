@@ -11,7 +11,7 @@
         
         <!-- Load external CSS styles -->
         <link rel="stylesheet" href="./css/main.css">
-        
+
     </head>
     
     
@@ -26,18 +26,19 @@
         
     <hr class = "hrStyle">
     <p1>배우는 건 처음이신가요? / 習うのは初めてですか？</p1>
-        <form autocomplete="off">
-            <input type="checkbox" name="basic" value="ひらがな/カタカナ">
-            基礎(ひらがな/カタカナ)<br>
-            <p2> --> A dictionary for Beginners who had no basic about ひらがな and カタカナ</p2><br>
-
-            <hr>
-            <input type="checkbox" name="basic" value="">
+        <div class="choiceBox">
+            <form autocomplete="off">
+                <input type="checkbox" name="basic" value="ひらがな/カタカナ">
+                基礎(ひらがな/カタカナ)<br>
+                <p2> --> A dictionary for Beginners who had no basic about ひらがな and カタカナ</p2><br>
+                
+                <hr>
+                <input type="checkbox" name="basic" value="">
                 <br>
-            <p2>
-
-            </p2><br>
-        </form>
+                <p2>
+                </p2><br>
+            </form>
+        </div>
      
     
     <hr class="hrStyle">
@@ -63,15 +64,15 @@
             </form>
         </div>
 
+        <!-- 벛꽃배경 divBox -->
         <div class="putImage">
             <img src='./css/cherryblossomflower.jpg' width="50" height="25">
         </div>
     
+        <!-- 일어자격증정보 divBox -->
         <hr class="hrStyle">
         <h3 class="positionCenter">&#128120일어 습득 후,일본어 자격증 관련 정보&#128120</h3>
         <hr class="hrStyle">
-
-
         <ul class="JPlistInfo">
             <li><p3>JLPT 어학 관련 정보</p3></li>
             <a href="https://www.jlpt.or.kr/jlpt/jlpt1.asp?Mcode=1">JLPT 어학 사이트(시험소개)</a>
@@ -86,32 +87,10 @@
             <br>
             <br>
         </ul>
-    
-        <!--
-        <ol type = "A">
-            <li>初心者 : ひらがな,カタカナ,単語</li> <button type = "button">Easy<button><br>
-            <li>中級者 : N5~N3レベル</li> <button type = "button">Normal</button><br>
-            <li>上級者 : N2レベル</li> <button type = "button">Hard</button><br>
-            <li>マスター : N1レベル</li> <button type = "button">Expert</button><br>
-        </ol>
-        -->
-        
-
-        <div></div>
-        <header></header>
-        <nav></nav>
-        <main></main>
-        <section></section>
-        <article></article>
-        <aside></aside>
-        <footer></footer>
-
-
 
 
         <!-- Load external JavaScript -->
         <script src="./JavaScript/notebook.js">
-            
         </script>
         
     </body>
