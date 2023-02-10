@@ -1,3 +1,13 @@
+
+/*컨테이너 개념 이해 및 응용*/
+
+#choiceBox{
+background-color: pink;
+border-color: lightcoral;
+display: flex;
+flex-direction: row;
+}
+
 ol{
 
   width : 1000px;
