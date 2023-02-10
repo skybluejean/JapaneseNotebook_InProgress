@@ -1,10 +1,21 @@
 
+
+:BoxStyle{
+   --boxbackGroundColor: pink;
+   --boxBorderColor: lightcoral;
+   --boxBorderStyle: groove;
+   --boxBorderWidth: 5px;
+   --boxMarginSize: 0px;
+}
+
+/*
 body{
    margin : 0px;
    background-color: rgb(240, 222, 225);
     }
- 
- h1{
+ */
+
+ .headStyle{
     background-color: violet;
     border-color: rgb(211, 50, 112);
     border-style :inset;
@@ -24,13 +35,15 @@ body{
     margin : 0;
      }
         
- .hrStyle{
+ .lineStyle{
     border-style: double;
     color: violet;
     border-width: 7px;
     margin : 0;
     }
         
+
+   /* 
  .choiceBox{
      background-color: pink;
      border-color: lightcoral;
@@ -51,17 +64,41 @@ body{
     list-style-type: square;
     list-style-position: inside;
     }
- 
- .putImage{
-    background-color: none;
-    background-image: url(cherryblossomflower.jpg);
-    background-repeat: repeat-x;
-    background-size: cover;
-    border-style: groove;
-    border-color: blueviolet;
-    border-width: 2px;
-    width: 670px;
-    height: 50px;
+    */
+
+    .choiceBox{
+      background-color: var(--boxbackGroundColor);
+      border-color: var(--boxBorderColor);
+      border-style: var(--boxBorderStyle);
+      border-width: var(--boxBorderWidth);
+      margin: var(--boxMarginSize);
+      padding-left: 5px;
+    }
+
+
+    .JPlistInfo{
+      background-color: var(--boxbackGroundColor);
+      border-color: var(--boxBorderColor);
+      border-style: var(--boxBorderStyle);
+      border-width: var(--boxBorderWidth);
+      margin: var(--boxMarginSize);
+      padding-left: 10px;
+      padding-bottom: 1px;
+      list-style-type: square;
+      list-style-position: inside;
+    }
+
+
+    .putImage{
+       background-color: none;
+       background-image: url(cherryblossomflower.jpg);
+       background-repeat: repeat-x;
+       background-size: cover;
+       border-style: groove;
+       border-color: blueviolet;
+       border-width: 2px;
+       width: 670px;
+       height: 50px;
       }
  
  
