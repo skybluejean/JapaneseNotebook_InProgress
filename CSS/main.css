@@ -1,22 +1,3 @@
-/*
-h1{
-  background-color: aqua;
-  border-color: azure;
-}
-
-ul{
-
-  background-color: bisque;
-  border-color: pink;
-  border-style: groove;
-  padding : 10px 10px 10px 50px;
-}
-
-li{
-  list-style-type : square;
-  margin-bottom: 10px;
-}
-*/
 
 body{
    margin : 0px;
@@ -32,25 +13,16 @@ body{
     margin : 1.5px;
      }
  
-        
  .p1,.p2,.p3{
     margin : 3px;
     border : 5px;
     border-bottom-style: initial;
     }
         
-    /* 
-    p3{
-        margin : 0px;
-    }
-    */
-        
-      
  .positionCenter{
     text-align : center;
     margin : 0;
      }
-        
         
  .hrStyle{
     border-style: double;
@@ -79,17 +51,6 @@ body{
     list-style-type: square;
     list-style-position: inside;
     }
- 
- 
-    
- /* 
- .JPlistInfo{
-    background-color: pink;
-    border-style: groove;
-    border-color: lightcoral;
-    border-width: 2px;
-    /*border-color : azure;*/
- */
  
  .putImage{
     background-color: none;
