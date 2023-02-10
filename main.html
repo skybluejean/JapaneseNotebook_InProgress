@@ -18,70 +18,49 @@
     <body>
         
         <h1>ようこそ!!</h1>
+        
         <hr class="hrStyle">
         <h3 class="positionCenter">&#128152一緒にゲームをしながら日本語を勉強しましょう&#128152</h3>
         <h4 class="positionCenter">&#128158let's study japanese with playing game together&#128158</h4>
         
         
-        <hr class = "hrStyle">
-        <p1>배우는 건 처음이신가요? / 習うのは初めてですか？</p1>
-        <form action=""><br>--> A dictionary for Beginners who had no basic about ひらがな and カタカナ
-            <input type="button" value="ひらがな/カタカナ">
+    <hr class = "hrStyle">
+    <p1>배우는 건 처음이신가요? / 習うのは初めてですか？</p1>
+        <form autocomplete="off">
+            <input type="checkbox" name="basic" value="ひらがな/カタカナ">
+            基礎(ひらがな/カタカナ)<br>
+            <p2> --> A dictionary for Beginners who had no basic about ひらがな and カタカナ</p2><br>
+
+            <hr>
+            <input type="checkbox" name="basic" value="">
+                <br>
+            <p2>
+
+            </p2><br>
         </form>
-        
-        
-        <!-- 
-            
-            <script type = "TestForEasy.JavaScript">
-                function gotoEasy()
-                {
-                    window.document.location.href='file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForEasy.html';
-                }
-            </script>
-            
-            <script type = "TestForNormal.JavaScript">
-                function gotoNormal()
-                {
-                    window.document.location.href='file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForNormal.html';
-                }
-            </script>
-            
-            <script type = "TestForHard.JavaScript">
-                function gotoHard()
-                {
-                    window.document.location.href='file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForHard.html';
-                }
-            </script>
-            
-            <script type = "TestForExpert.JavaScript">
-            function gotoExpert()
-            {
-                window.document.location.href='file:///D:/Ellen_VScodeSample/Japanese_notebook/TestForExpert.html';
-            }
-        </script>
-    -->
-    
-        
-    
+     
     
     <hr class="hrStyle">
     <p1>당신의 레벨은 어느정도 입니까? 
             / あなたのレベルはどのくらいですか?</p1>
             
-            <div class="choiceBox">
-                <form autocomplete="off">
-                <input type="checkbox" name = "level" value = "初心者(Easy)"  onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForEasy.html'">初心者(Easy) <br> -->
-                <p2>After master ひらがな and カタカナ, then start it with basic level between N5~N4</p2> <br>
+        <div class="choiceBox">
+            <form autocomplete="off">
+                <input type="checkbox" name = "levelchoice" value = "初心者(Easy)"  onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForEasy.html'">初心者(Easy) <br>
+                <p2>--> After master ひらがな and カタカナ, then start it with basic level between N5~N4</p2> <br>
+                
                 <hr>
-                <input type="checkbox" name = "level" value = "中級者(Normal)" onclick="location.href ='file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForNormal.html'">中級者(Normal) <br> -->
-                <p2>People who had basic about ひらがな and カタカナ and leearn some vocabulary</p2> <br>
+                <input type="checkbox" name = "levelchoice" value = "中級者(Normal)" onclick="location.href ='file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForNormal.html'">中級者(Normal) <br> 
+                <p2>--> People who had basic about ひらがな and カタカナ and leearn some vocabulary</p2> <br>
+                
                 <hr>
-                <input type="checkbox" name = "level" value = "上級者(Hard)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForHard.html'">上級者(Hard) <br> -->
-                <p2>After finished Normal level you can challenge Hard mode that who can understand N2 level vocabulary</p2> <br>
+                <input type="checkbox" name = "levelchoice" value = "上級者(Hard)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForHard.html'">上級者(Hard) <br>
+                <p2>--> After finished Normal level you can challenge Hard mode that who can understand N2 level vocabulary</p2> <br>
+                
                 <hr>
-                <input type="checkbox" name = "level" value = "マスター(Expert)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForExpert.html'">マスター(Expert) <br> -->
-                <p2>If you master most of vacabulary, you can try Master level and proof your level!</p2> <br>
-        </form>
+                <input type="checkbox" name = "levelchoice" value = "マスター(Expert)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForExpert.html'">マスター(Expert) <br>
+                <p2>--> If you master most of vacabulary, you can try Master level and proof your level!</p2> <br>
+            </form>
         </div>
 
         <div class="putImage">
