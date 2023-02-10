@@ -1,0 +1,27 @@
+:Hstyle{
+  --BorderRadiusSize: 50px;
+  --BorderWidthSize: 10px;
+  --BorderColor: rgb(15, 181, 223);
+}
+
+body>h1,h3{
+border-color: var(--BorderColor);
+border-radius: var(--BorderRadiusSize);
+border-width: var(--BorderWidthSize);
+}
+
+div.hiraganaBox{
+background-color: sandybrown;
+border-style: inherit;
+border-radius: 30px 30px 30px 30px;
+border-width: 7px;
+margin : 0px;
+}
+
+div.gatakanaBox{
+background-color: lightgreen;
+border-style: inherit;
+border-radius: 30px 30px 30px 30px;
+border-width: 7px;
+margin : 0px;
+} 
