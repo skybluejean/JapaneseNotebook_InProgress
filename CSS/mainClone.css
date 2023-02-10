@@ -1,0 +1,17 @@
+ol{
+
+  width : 1000px;
+  height : 500px;
+  background-color: coral;
+
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+li{
+  margin : 20px;
+  border : 1px solid black
+}

@@ -6,8 +6,8 @@ body{
  
  h1{
     background-color: violet;
-    border-style :inset;
     border-color: rgb(211, 50, 112);
+    border-style :inset;
     border-width: 4px;
     text-align: center;
     margin : 1.5px;
