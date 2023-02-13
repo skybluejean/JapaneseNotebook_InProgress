@@ -67,21 +67,25 @@ body{
     */
 
     .choiceBox{
+      /*
       background-color: var(--boxbackGroundColor);
       border-color: var(--boxBorderColor);
       border-style: var(--boxBorderStyle);
       border-width: var(--boxBorderWidth);
       margin: var(--boxMarginSize);
+      */
       padding-left: 5px;
     }
 
 
     .JPlistInfo{
+       /*
       background-color: var(--boxbackGroundColor);
       border-color: var(--boxBorderColor);
       border-style: var(--boxBorderStyle);
       border-width: var(--boxBorderWidth);
       margin: var(--boxMarginSize);
+      */
       padding-left: 10px;
       padding-bottom: 1px;
       list-style-type: square;
