@@ -1,37 +1,47 @@
 
-body{
+   body{
    margin : 0px;
    background-color: rgb(240, 222, 225);
     }
  
- h1{
+    #h1Style{
     background-color: violet;
     border-style :inset;
     border-color: rgb(211, 50, 112);
     border-width: 4px;
     text-align: center;
     margin : 1.5px;
-     }
+   }
  
- .p1,.p2,.p3{
+     #hrStyle{
+     border-style: double;
+     color: violet;
+     border-width: 7px;
+     margin : 0;
+   }
+         
+    .containerBox{
+    background-color: pink;
+    border-color : lightcoral;
+    border-style: groove;
+    margin : 0;
+    border-width: 5px;
+    padding-left: 10px;
+   }
+
+    .p1,.p2,.p3{
     margin : 3px;
     border : 5px;
     border-bottom-style: initial;
     }
         
- .positionCenter{
+    .positionCenter{
     text-align : center;
     margin : 0;
      }
         
- .hrStyle{
-    border-style: double;
-    color: violet;
-    border-width: 7px;
-    margin : 0;
-    }
-        
- .choiceBox{
+    /*
+    .choiceBox{
      background-color: pink;
      border-color: lightcoral;
      border-style: groove;
@@ -39,8 +49,9 @@ body{
      border-width: 5px;
      padding-left: 5px;
     }
+    */
  
- .JPlistInfo{
+    .JPlistInfo{
     background-color: pink;
     border-color : lightcoral;
     border-style: groove;
@@ -52,7 +63,7 @@ body{
     list-style-position: inside;
     }
  
- .putImage{
+   .putImage{
     background-color: none;
     background-image: url(cherryblossomflower.jpg);
     background-repeat: repeat-x;
@@ -62,6 +73,6 @@ body{
     border-width: 2px;
     width: 670px;
     height: 50px;
-      }
+   }
  
  
