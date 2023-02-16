@@ -1,39 +1,18 @@
-:Hstyle{
-  --BorderRadiusSize: 50px 50px;
-  --BorderWidthSize: 10px;
-  --BorderStyle: groove;
+
+
+#h1Style{
+border-color: rgb(15, 181, 223);
+border-radius: 50px;
+border : 10px solid lightskyblue
 }
 
-:Boxstyle{
-  --divBackGroundColor: lightgreen;
-  --divBorderStyle: inherit;
-  --divBorderRound: 30px 30px 30px 30px;
-  --divBorderWidth: 7px;
-  --divDisplay: flex; 
-  --divFlexDirection: row;
-  --divJustifyContent: space-around;
+#h3Style{
+border-color: rgb(241, 79, 141);
+border-radius: 50px;
+border : 10px solid lightpink
 }
 
-#Hstyle1{
-border-color: var(--BorderColor);
-border-radius: var(--BorderRadiusSize);
-border-width: var(--BorderWidthSize);
-border-style: var(--BorderStyle);
-}
-
-
-.hiragana{
-  background-color: var(--divBackGroundColor);
-  border-style: var(--divBorderStyle);
-  border-radius: var(--divBorderRound);
-  border-width: var(--divBorderWidth);
-  display: var(--divDisplay);
-  flex-direction: var(--divFlexDirection);
-  justify-content: var(--divJustifyContent);
-}
-
-/*
-div{
+.hiraganaBox{
 background-color: sandybrown;
 border-style: inherit;
 border-radius: 30px 30px 30px 30px;
@@ -41,11 +20,10 @@ border-width: 7px;
 margin : 0px;
 }
 
-div{
+.gatakanaBox{
 background-color: lightgreen;
 border-style: inherit;
 border-radius: 30px 30px 30px 30px;
 border-width: 7px;
 margin : 0px;
 } 
-*/
