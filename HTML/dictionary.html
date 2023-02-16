@@ -21,8 +21,7 @@
   <h1 id="h1Style">ひらがなlist</h1>
   <h3 id="h3Style">-청음-</h3>
 
-  <table>
-
+  <!-- <table class="tableStyle">   
     <tr>
       <th>청음</th>
       <th>탁음</th>
@@ -40,12 +39,11 @@
     <td></td>
     <td></td>
     <td></td>
-  </tr>
-  
-</table>
-
-  <div class="hiraganaBox">
-    <ul>
+    </tr>
+  </table> -->
+  <div id="container">
+  <div class="higaBox">
+    <ul id="ulArray">
       <li>あ(a)</li>
       <li>い(i)</li>
       <li>う(u)</li>
@@ -54,8 +52,8 @@
     </ul>
   </div>
   
-  <div class="hiraganaBox">
-    <ul>
+  <div class="higaBox">
+    <ul id="ulArray">
       <li>か(ka)</li>
       <li>き(ki)</li>
       <li>く(ku)</li>
@@ -64,8 +62,8 @@
     </ul>
   </div>
 
-  <div class="hiraganaBox">
-    <ul>
+  <div class="higaBox">
+    <ul id="ulArray">
       <li>さ(sa)</li>
       <li>し(si)</li>
       <li>す(su)</li>
@@ -74,8 +72,8 @@
     </ul>
   </div>
   
-  <div class="hiraganaBox">
-    <ul>
+  <div class="higaBox">
+    <ul id="ulArray">
       <li>た(ta)</li>
       <li>ち(chi)</li>
       <li>つ(tsu)</li>
@@ -84,18 +82,18 @@
     </ul>
   </div>
   
-  <div class="hiraganaBox">
-    <ul>
-    <li>な(na)</li>
-    <li>に(ni)</li>
-    <li>ぬ(nu)</li>
-    <li>ね(ne)</li>
+  <div class="higaBox">
+    <ul id="ulArray">
+      <li>な(na)</li>
+      <li>に(ni)</li>
+      <li>ぬ(nu)</li>
+      <li>ね(ne)</li>
     <li>の(no)</li>
   </ul>
 </div>
 
-<div class="hiraganaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>は(ha)</li>
     <li>ひ(hi)</li>
     <li>ふ(hu)</li>
@@ -104,8 +102,8 @@
   </ul>
 </div>
 
-<div class="hiraganaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>ま(ma)</li>
     <li>み(mi)</li>
     <li>む(mu)</li>
@@ -114,8 +112,8 @@
   </ul>
 </div>
 
-<div class="hiraganaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>や(ya)</li>
     <li>ゆ(yu)</li>
     <li>よ(yo)</li>
@@ -131,40 +129,42 @@
     <li>ん(N)</li>
   </ul>
 </div>
+</div>
 
 <h3 id="h3Style">-탁음-</h3>
-<div class="hiraganaBox">
-  <ul>
-    <li>が(ga)</li>
-    <li>ぎ(gi)</li>
-    <li>ぐ(gu)</li>
-    <li>げ(ge)</li>
-    <li>ご(go)</li>
-  </ul>
+<div id="container">
+  <div class="higaBox">
+    <ul id="ulArray">
+      <li>が(ga)</li>
+      <li>ぎ(gi)</li>
+      <li>ぐ(gu)</li>
+      <li>げ(ge)</li>
+      <li>ご(go)</li>
+    </ul>
+  </div>
+  
+  <div class="higaBox">
+    <ul id="ulArray">
+      <li>ざ(za)</li>
+      <li>じ(zi)</li>
+      <li>ず(zu)</li>
+      <li>ぜ(ze)</li>
+      <li>ぞ(zo)</li>
+    </ul>
+  </div>
+  
+  <div class="higaBox">
+    <ul id="ulArray">
+      <li>だ(da)</li>
+      <li>ぢ(zi)</li>
+      <li>づ(zu)</li>
+      <li>で(de)</li>
+      <li>ど(do)</li>
+    </ul>
 </div>
 
-<div class="hiraganaBox">
-  <ul>
-    <li>ざ(za)</li>
-    <li>じ(zi)</li>
-    <li>ず(zu)</li>
-    <li>ぜ(ze)</li>
-    <li>ぞ(zo)</li>
-  </ul>
-</div>
-
-<div class="hiraganaBox">
-  <ul>
-    <li>だ(da)</li>
-    <li>ぢ(zi)</li>
-    <li>づ(zu)</li>
-    <li>で(de)</li>
-    <li>ど(do)</li>
-  </ul>
-</div>
-
-<div class="hiraganaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>ば(ba)</li>
     <li>び(bi)</li>
     <li>ぶ(bu)</li>
@@ -172,60 +172,50 @@
     <li>ぼ(bo)</li>
   </ul>
 </div>
-
-<h3 id="h3Style">-반탁음-</h3>
-<div class="hiraganaBox">
-  <ul>
-    <li>ぱ(pa)</li>
-    <li>ぴ(pi)</li>
-    <li>ぷ(pu)</li>
-    <li>ぺ(pe)</li>
-    <li>ぽ(po)</li>
-  </ul>
 </div>
 
-<h3 id="h3Style">-요음-</h3>
-<div class="hiraganaBox">
-  <ul>
-    <li>きゃ(kya)</li>
-    <li>きゅ(kyu)</li>
-    <li>きょ(kyo)</li>
-    <br>
-    <li>ぎゃ(gya)</li>
-    <li>ぎゅ(gyu)</li>
-    <li>ぎょ(gyo)</li>
-  </ul>
-</div>
+  <h3 id="h3Style">-반탁음-</h3>
+  <div id="container">
+    <div class="higaBox">
+      <ul id="ulArray">
+        <li>ぱ(pa)</li>
+        <li>ぴ(pi)</li>
+        <li>ぷ(pu)</li>
+        <li>ぺ(pe)</li>
+        <li>ぽ(po)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <h3 id="h3Style">-요음-</h3>
+  <div id="container">
+    <div class="higaBox">
+      <ul id="ulArray">
+        <li>きゃ(kya)</li>
+        <li>きゅ(kyu)</li>
+        <li>きょ(kyo)</li>
+        <br>
+        <li>ぎゃ(gya)</li>
+        <li>ぎゅ(gyu)</li>
+        <li>ぎょ(gyo)</li>
+      </ul>
+    </div>
+    
+  <div class="higaBox">
+    <ul id="ulArray">
+      <li>しゃ(sya)</li>
+      <li>しゅ(syu)</li>
+      <li>しょ(syo)</li>
+      <br>
+      <li>じゃ(zya)</li>
+      <li>じゅ(zyu)</li>
+      <li>じょ(zyo)</li>
+    </ul>
+  </div>
 
-<div class="hiraganaBox">
-  <ul>
-    <li>しゃ(sya)</li>
-    <li>しゅ(syu)</li>
-    <li>しょ(syo)</li>
-    <br>
-    <li>じゃ(zya)</li>
-    <li>じゅ(zyu)</li>
-    <li>じょ(zyo)</li>
-  </ul>
-</div>
-
-<div class="hiraganaBox">
-  <ul>
-    <li>ちゃ(chya)</li>
-    <li>ちゅ(chyu)</li>
-    <li>ちょ(chyo)</li>
-
-    <br>
-    <li>ぢゃ(zya)</li>
-    <li>ぢゅ(zyu)</li>
-    <li>ぢょ(zyo)</li>
-
-  </ul>
-</div>
-
-<div class="hiraganaBox">
-  <ul>
-    <li>ちゃ(chya)</li>
+  <div class="higaBox">
+    <ul id="ulArray">
+      <li>ちゃ(chya)</li>
     <li>ちゅ(chyu)</li>
     <li>ちょ(chyo)</li>
     <br>
@@ -235,8 +225,20 @@
   </ul>
 </div>
 
-<div class="hiraganaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
+    <li>ちゃ(chya)</li>
+    <li>ちゅ(chyu)</li>
+    <li>ちょ(chyo)</li>
+    <br>
+    <li>ぢゃ(zya)</li>
+    <li>ぢゅ(zyu)</li>
+    <li>ぢょ(zyo)</li>
+  </ul>
+</div>
+
+<div class="higaBox">
+  <ul id="ulArray">
     <li>にゃ(nya)</li>
     <li>にゅ(nyu)</li>
     <li>にょ(nyo)</li>
@@ -247,8 +249,8 @@
   </ul>
 </div>
 
-<div class="hiraganaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>びゃ(bya)</li>
     <li>びゅ(byu)</li>
     <li>びょ(byo)</li>
@@ -259,8 +261,8 @@
   </ul>
 </div>
 
-<div class="hiraganaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>みゃ(mya)</li>
     <li>みゅ(myu)</li>
     <li>みょ(myo)</li>
@@ -270,6 +272,7 @@
     <li>りょ(ryo)</li>
   </ul>
 </div>
+</div>
 
 <br>
 <hr>
@@ -277,140 +280,147 @@
 
 <h1 id="h1Style">カタカナlist</h1>
 <h3 id="h3Style">-청음-</h3>
-<div class="gatakanaBox">
-  <ul>
-      <li>ア(a)</li>
-      <li>イ(i)</li>
-      <li>ウ(u)</li>
-      <li>エ(e)</li>
-      <li>オ(o)</li>
-    </ul>
-  </div>
+<div id="container">
+  <div class="higaBox">
+    <ul id="ulArray">
+    <li>ア(a)</li>
+    <li>イ(i)</li>
+    <li>ウ(u)</li>
+    <li>エ(e)</li>
+    <li>オ(o)</li>
+  </ul>
+</div>
 
-  <div class="gatakanaBox">
-    <ul>
-      <li>カ(ka)</li>
-      <li>キ(ki)</li>
-      <li>ク(ku)</li>
-      <li>ケ(ke)</li>
-      <li>コ(ko)</li>
-    </ul>
-  </div>
+<div class="higaBox">
+  <ul id="ulArray">
+    <li>カ(ka)</li>
+    <li>キ(ki)</li>
+    <li>ク(ku)</li>
+    <li>ケ(ke)</li>
+    <li>コ(ko)</li>
+  </ul>
+</div>
 
-  <div class="gatakanaBox">
-    <ul>
-      <li>サ(sa)</li>
-      <li>シ(si)</li>
-      <li>ス(su)</li>
-      <li>セ(se)</li>
-      <li>ソ(so)</li>
-    </ul>
-  </div>
+<div class="higaBox">
+  <ul id="ulArray">
+    <li>サ(sa)</li>
+    <li>シ(si)</li>
+    <li>ス(su)</li>
+    <li>セ(se)</li>
+    <li>ソ(so)</li>
+  </ul>
+</div>
 
-  <div class="gatakanaBox">
-    <ul>  
-      <li>タ(ta)</li>
-      <li>チ(chi)</li>
-      <li>ツ(tsu)</li>
-      <li>テ(te)</li>
-      <li>ト(to)</li>
-    </ul>
-  </div>
+<div class="higaBox">
+  <ul id="ulArray">
+    <li>タ(ta)</li>
+    <li>チ(chi)</li>
+    <li>ツ(tsu)</li>
+    <li>テ(te)</li>
+    <li>ト(to)</li>
+  </ul>
+</div>
 
-  <div class="gatakanaBox">
-    <ul>  
-      <li>ナ(na)</li>
-      <li>ニ(ni)</li>
-      <li>ヌ(nu)</li>
-      <li>ネ(ne)</li>
-      <li>ノno</li>
-    </ul>
-  </div>
+<div class="higaBox">
+  <ul id="ulArray">
+    <li>ナ(na)</li>
+    <li>ニ(ni)</li>
+    <li>ヌ(nu)</li>
+    <li>ネ(ne)</li>
+    <li>ノno</li>
+  </ul>
+</div>
 
-  <div class="gatakanaBox">
-    <ul>  
-     <li>ハ(ha)</li>
-     <li>ヒ(hi)</li>
-     <li>フ(hu)</li>
-     <li>ヘ(he)</li>
-     <li>ホho</li>
-    </ul>
-  </div>
+<div class="higaBox">
+  <ul id="ulArray">
+    <li>ハ(ha)</li>
+    <li>ヒ(hi)</li>
+    <li>フ(hu)</li>
+    <li>ヘ(he)</li>
+    <li>ホho</li>
+  </ul>
+</div>
 
-  <div class="gatakanaBox">
-    <ul>  
-      <li>マ(ma)</li>
-      <li>ミ(mi)</li>
-      <li>厶(mu)</li>
-      <li>メ(me)</li>
-      <li>モ(mo)</li>
-    </ul>
-  </div>
+<div class="higaBox">
+  <ul id="ulArray">
+    <li>マ(ma)</li>
+    <li>ミ(mi)</li>
+    <li>厶(mu)</li>
+    <li>メ(me)</li>
+    <li>モ(mo)</li>
+  </ul>
+</div>
 
-  <div class="gatakanaBox">
-    <ul>  
-      <li>ヤ(ya)</li>
-      <li>ユ(yu)</li>
-      <li>ヨ(yo)</li>
-    </ul>
-  </div>
+<div class="higaBox">
+  <ul id="ulArray">
+    <li>ヤ(ya)</li>
+    <li>ユ(yu)</li>
+    <li>ヨ(yo)</li>
+  </ul>
+</div>
 
-  <div class="gatakanaBox">
-    <ul>  
-      <li>ラ(ra)</li>
-      <li>リ(ri)</li>
-      <li>ル(ru)</li>
-      <li>レ(re)</li>
-      <li>ロ(ro)</li>
-    </ul>
-  </div>
+<div class="higaBox">
+  <ul id="ulArray">
+    <li>ラ(ra)</li>
+    <li>リ(ri)</li>
+    <li>ル(ru)</li>
+    <li>レ(re)</li>
+    <li>ロ(ro)</li>
+  </ul>
+</div>
 
-  <div class="gatakanaBox">
-    <ul>  
-      <li>ワ(wa)</li>
-      <li>ヲ(wo)</li>
-      <li>ン(N)</li>
-    </ul>
-  </div>
+<div class="higaBox">
+  <ul id="ulArray">
+    <li>ワ(wa)</li>
+    <li>ヲ(wo)</li>
+    <li>ン(N)</li>
+  </ul>
+</div>
+</div>
 
 
   <h3 id="h3Style">-탁음-</h3>
-  <div class="gatakanaBox">
-  <ul>
-    <li>ガ(ga)</li>
-    <li>ギ(gi)</li>
-    <li>グ(gu)</li>
-    <li>ゲ(ge)</li>
-    <li>ゴ(go)</li>
-  </ul>
-</div>
+  <div id="container">
+    <div class="higaBox">
+      <ul id="ulArray">
+        <li>ガ(ga)</li>
+        <li>ギ(gi)</li>
+        <li>グ(gu)</li>
+        <li>ゲ(ge)</li>
+        <li>ゴ(go)</li>
+      </ul>
+    </div>
+  </div>
 
 <h3 id="h3Style">-반탁음-</h3>
-<div class="gatakanaBox">
-  <ul>
-    <li>パ(pa)</li>
-    <li>ピ(pi)</li>
-    <li>プ(pu)</li>
-    <li>ぺ(pe)</li>
-    <li>ポ(po)</li>
-  </ul>
+<div id="container">
+  <div class="higaBox">
+    <ul id="ulArray">
+      <li>パ(pa)</li>
+      <li>ピ(pi)</li>
+      <li>プ(pu)</li>
+      <li>ぺ(pe)</li>
+      <li>ポ(po)</li>
+    </ul>
+  </div>
 </div>
 
 <h3 id="h3Style">-요음-</h3>
-<div class="gatakanaBox">
-  <ul>
-    <li>キャ(kya)</li>
-    <li>キュ(kyu)</li>
-    <li>キョ(kyo)</li>
-    <br>
-    <li>ギャ(gya)</li>
+<div id="container">
+  <div class="higaBox">
+    <ul id="ulArray">
+      <li>キャ(kya)</li>
+      <li>キュ(kyu)</li>
+      <li>キョ(kyo)</li>
+      <br>
+      <li>ギャ(gya)</li>
     <li>ギュ(gyu)</li>
     <li>ギョ(gyo)</li>
   </ul>
 </div>
 
-<div class="gatakanaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>シャ(sya)</li>
     <li>シュ(syu)</li>
     <li>ショ(syo)</li>
@@ -421,8 +431,8 @@
   </ul>
 </div>
 
-<div class="gatakanaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>チャ(chya)</li>
     <li>チュ(chyu)</li>
     <li>チョ(chyo)</li>
@@ -433,8 +443,8 @@
   </ul>
 </div>
 
-<div class="gatakanaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>ニャ(nya)</li>
     <li>ニュ(nyu)</li>
     <li>ニョ(nyo)</li>
@@ -445,8 +455,8 @@
   </ul>
 </div>
 
-<div class="gatakanaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>ビャ(bya)</li>
     <li>ビュ(byu)</li>
     <li>ビョ(byo)</li>
@@ -457,8 +467,8 @@
   </ul>
 </div>
 
-<div class="gatakanaBox">
-  <ul>
+<div class="higaBox">
+  <ul id="ulArray">
     <li>ミャ(mya)</li>
     <li>ミュ(myu)</li>
     <li>ミョ(myo)</li>
@@ -467,6 +477,7 @@
     <li>リュ(ryu)</li>
     <li>リョ(ryo)</li>
   </ul>
+</div>
 </div>
 
 

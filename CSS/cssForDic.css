@@ -1,28 +1,46 @@
 
 #h1Style{
-  background-color: rgb(15, 181, 223);
-  border-radius: 50px;
-  border : 10px solid lightskyblue
-  }
-  
-  #h3Style{
   background-color: rgb(241, 79, 141);
   border-radius: 50px;
-  border : 10px solid lightpink
+  border : 10px solid lightpink;
+  width: 1800px;
+  height: 50px;
+  text-align: center;
+}
+
+#h3Style{
+  background-color: peachpuff;
+  border-radius: 50px;
+  border : 10px solid lightcoral;
+  width: 500px;
+  height: 30px;
+  text-align: center;
+}
+
+/*  .tableStyle{
+    border : 2px solid lightgray;
+}*/
+
+  #container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-rows: auto;
   }
-  
-  .hiraganaBox{
-  background-color: sandybrown;
-  border-style: inherit;
-  border-radius: 30px 30px 30px 30px;
-  border-width: 7px;
-  margin : 0px;
+  #ulArray{
+    padding: 25px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
-  
-  .gatakanaBox{
-  background-color: lightgreen;
-  border-style: inherit;
-  border-radius: 30px 30px 30px 30px;
-  border-width: 7px;
-  margin : 0px;
-  } 
+
+  .higaBox{
+    background-color: rgb(15, 181, 223);
+    border-radius: 30px 30px 30px 30px;
+    border: 7px solid lightskyblue;
+    margin : 0px;
+    width: 330px;
+    height: 100px;
+    } 
+
