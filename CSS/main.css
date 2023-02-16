@@ -1,5 +1,5 @@
 
-
+/*
 :BoxStyle{
    --boxbackGroundColor: pink;
    --boxBorderColor: lightcoral;
@@ -7,13 +7,14 @@
    --boxBorderWidth: 5px;
    --boxMarginSize: 0px;
 }
+*/
 
-/*
+
 body{
    margin : 0px;
    background-color: rgb(240, 222, 225);
     }
- */
+
 
  .headStyle{
     background-color: violet;
@@ -43,7 +44,6 @@ body{
     }
         
 
-   /* 
  .choiceBox{
      background-color: pink;
      border-color: lightcoral;
@@ -64,7 +64,7 @@ body{
     list-style-type: square;
     list-style-position: inside;
     }
-    */
+   
 
     .choiceBox{
       /*
@@ -74,6 +74,11 @@ body{
       border-width: var(--boxBorderWidth);
       margin: var(--boxMarginSize);
       */
+      background-color: pink;
+      border-color: lightcoral;
+      border-style: groove;
+      margin: 0px;
+      border-width: 5px;
       padding-left: 5px;
     }
 
