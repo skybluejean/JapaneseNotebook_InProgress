@@ -1,13 +1,13 @@
 
 
 #h1Style{
-border-color: rgb(15, 181, 223);
+background-color: rgb(15, 181, 223);
 border-radius: 50px;
 border : 10px solid lightskyblue
 }
 
 #h3Style{
-border-color: rgb(241, 79, 141);
+background-color: rgb(241, 79, 141);
 border-radius: 50px;
 border : 10px solid lightpink
 }
