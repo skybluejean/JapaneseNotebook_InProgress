@@ -1,4 +1,11 @@
 
+body{
+  width : 300vw;
+  height: 500vh;
+  background-color: plum;
+}
+
+
 #h1Style{
   background-color: rgb(241, 79, 141);
   border-radius: 50px;
