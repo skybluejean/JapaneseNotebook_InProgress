@@ -1,7 +1,8 @@
 
 body{
-  width : 300vw;
+  width : 180vw;
   height: 500vh;
+  margin : 0;
   background-color: plum;
 }
 
