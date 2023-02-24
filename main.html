@@ -16,64 +16,86 @@
     
     <body>
         <!-- youkoso!!! -->
-        <h1 id="h1Style" >ようこそ!!</h1>
-        <hr id="hrStyle">
-        <!--  -->
-        <h3 class="positionCenter">&#128152一緒にゲームをしながら日本語を勉強しましょう&#128152</h3>
-        <h4 class="positionCenter">&#128158let's study japanese with playing game together&#128158</h4>
-        
-        
+        <header>
+            <h1 id="h1Style" >ようこそ!!</h1>
             <hr id="hrStyle">
-            <p1>배우는 건 처음이신가요? / 習うのは初めてですか？</p1>
+            <h3 class="positionCenter">&#128152一緒にゲームをしながら日本語を勉強しましょう&#128152</h3>
+            <h4 class="positionCenter">&#128158let's study japanese with playing game together&#128158</h4>
+        </header>
+        
+        <!--  -->
+        <nav>
+            
+            
+                <hr id="hrStyle">
+                <p1>배우는 건 처음이신가요? / 習うのは初めてですか？</p1>
+                <div class="choiceBox">
+                    <form autocomplete="off">
+                        <input type="checkbox" name="基礎/basic" value="ひらがな/カタカナ">
+                        基礎(ひらがな/カタカナ)<br>
+                        <p2> --> A dictionary for Beginners who had no basic about ひらがな and カタカナ</p2><br>
+                        <hr>
+                        <input type="checkbox" name="基礎/basic" value="数字">
+                        数字(Number)<br>
+                        <p2> --> It is the most important part tolearn and know to speak number in japanese</p2><br>
+                        <hr>
+                        <input type="checkbox" name="基礎/basic" value="年,月,曜日">
+                        年,月,曜日(Year, Month, Day)<br>
+                        <p2> --> You should know year,month,day in japanese to use it to dialog fluently.</p2><br>
+                        <hr>
+                        <input type="checkbox" name="基礎/basic" value="文法">
+                        文法(Grammer)<br>
+                        <p2> --> You should know basic grammer in japanese to use it to dialog fluently.</p2><br>
+                    </form>
+                </div>
+
+
+        </nav>
+        
+
+    <nav>
+        
+        <hr id="hrStyle">
+        <p1>당신의 레벨은 어느정도 입니까? 
+                / あなたのレベルはどのくらいですか?</p1>
+                
             <div class="choiceBox">
                 <form autocomplete="off">
-                    <input type="checkbox" name="基礎/basic" value="ひらがな/カタカナ">
-                    基礎(ひらがな/カタカナ)<br>
-                    <p2> --> A dictionary for Beginners who had no basic about ひらがな and カタカナ</p2><br>
+                    <input type="checkbox" name = "levelchoice" value = "初心者(Easy)"  onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForEasy.html'">初心者(Easy) <br>
+                    <p2>--> After master ひらがな and カタカナ, then start it with basic level between N5~N4</p2> <br>
+                    
                     <hr>
-                    <input type="checkbox" name="基礎/basic" value="数字">
-                    数字(Number)<br>
-                    <p2> --> It is the most important part tolearn and know to speak number in japanese</p2><br>
+                    <input type="checkbox" name = "levelchoice" value = "中級者(Normal)" onclick="location.href ='file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForNormal.html'">中級者(Normal) <br> 
+                    <p2>--> People who had basic about ひらがな and カタカナ and leearn some vocabulary</p2> <br>
+                    
                     <hr>
-                    <input type="checkbox" name="基礎/basic" value="年,月,曜日">
-                    年,月,曜日(Year, Month, Day)<br>
-                    <p2> --> You should know year,month,day in japanese to use it to dialog fluently.</p2><br>
+                    <input type="checkbox" name = "levelchoice" value = "上級者(Hard)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForHard.html'">上級者(Hard) <br>
+                    <p2>--> After finished Normal level you can challenge Hard mode that who can understand N2 level vocabulary</p2> <br>
+                    
                     <hr>
-                    <input type="checkbox" name="基礎/basic" value="文法">
-                    文法(Grammer)<br>
-                    <p2> --> You should know basic grammer in japanese to use it to dialog fluently.</p2><br>
+                    <input type="checkbox" name = "levelchoice" value = "マスター(Expert)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForExpert.html'">マスター(Expert) <br>
+                    <p2>--> If you master most of vocabulary, you can try Master level and proof your level!</p2> <br>
                 </form>
             </div>
 
-    
-    <hr id="hrStyle">
-    <p1>당신의 레벨은 어느정도 입니까? 
-            / あなたのレベルはどのくらいですか?</p1>
-            
-        <div class="choiceBox">
-            <form autocomplete="off">
-                <input type="checkbox" name = "levelchoice" value = "初心者(Easy)"  onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForEasy.html'">初心者(Easy) <br>
-                <p2>--> After master ひらがな and カタカナ, then start it with basic level between N5~N4</p2> <br>
-                
-                <hr>
-                <input type="checkbox" name = "levelchoice" value = "中級者(Normal)" onclick="location.href ='file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForNormal.html'">中級者(Normal) <br> 
-                <p2>--> People who had basic about ひらがな and カタカナ and leearn some vocabulary</p2> <br>
-                
-                <hr>
-                <input type="checkbox" name = "levelchoice" value = "上級者(Hard)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForHard.html'">上級者(Hard) <br>
-                <p2>--> After finished Normal level you can challenge Hard mode that who can understand N2 level vocabulary</p2> <br>
-                
-                <hr>
-                <input type="checkbox" name = "levelchoice" value = "マスター(Expert)" onclick="location.href = 'file:///D:/Ellen_VScodeSample/Japanese_notebook/html/TestForExpert.html'">マスター(Expert) <br>
-                <p2>--> If you master most of vocabulary, you can try Master level and proof your level!</p2> <br>
-            </form>
-        </div>
+    </nav>
+
+
+
+    <aside>
 
         <!-- 벛꽃배경 divBox -->
         <div class="putImage">
             <img src='./css/cherryblossomflower.jpg' width="50" height="25">
         </div>
-    
+
+
+    </aside>
+
+
+
+    <section>
+
         <!-- 일어자격증정보 divBox -->
         <hr id="hrStyle">
         <h3 class="positionCenter">&#128120일어 습득 후,일본어 자격증 관련 정보&#128120</h3>
@@ -88,14 +110,20 @@
             <br>
             <br>
             <li><p3>OPIC어학 관련 정보</p3></li>
-                <a href="https://m.opic.or.kr/opics/jsp/senior/receipt/aboutOpicMobile.jsp">OPIC어학 사이트(시험소개)</a>
+            <a href="https://m.opic.or.kr/opics/jsp/senior/receipt/aboutOpicMobile.jsp">OPIC어학 사이트(시험소개)</a>
             <br>
             <br>
         </ul>
+        
+    </section>
+
+
+
 
 
         <!-- Load external JavaScript -->
         <script src="./JavaScript/notebook.js">
+            let check = document.getElementById('');
         </script>
         
     </body>
